@@ -21,26 +21,61 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="piD-8Y-P5J">
-                                <rect key="frame" x="16" y="28" width="288" height="520"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="piD-8Y-P5J" userLabel="MainTextView">
+                                <rect key="frame" x="16" y="28" width="288" height="510"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E1N-qk-kSG">
+                                <rect key="frame" x="16" y="505" width="288" height="55"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvG-9f-LN1">
+                                        <rect key="frame" x="121" y="12" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Df0-hF-Mp9">
+                                        <rect key="frame" x="8" y="12" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DKZ-3v-I2h">
+                                        <rect key="frame" x="230" y="12" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="Df0-hF-Mp9" firstAttribute="leading" secondItem="E1N-qk-kSG" secondAttribute="leading" id="5W1-zM-Tnp"/>
+                                    <constraint firstAttribute="bottom" secondItem="DKZ-3v-I2h" secondAttribute="bottom" id="6Tg-Pt-Mzm"/>
+                                    <constraint firstItem="kvG-9f-LN1" firstAttribute="leading" secondItem="Df0-hF-Mp9" secondAttribute="trailing" constant="67" id="ItV-g7-LTc"/>
+                                    <constraint firstItem="Df0-hF-Mp9" firstAttribute="top" secondItem="E1N-qk-kSG" secondAttribute="top" id="PIr-gC-V2j"/>
+                                    <constraint firstItem="DKZ-3v-I2h" firstAttribute="leading" secondItem="kvG-9f-LN1" secondAttribute="trailing" constant="63" id="UAd-J2-YP6"/>
+                                    <constraint firstAttribute="trailing" secondItem="DKZ-3v-I2h" secondAttribute="trailing" id="Wmb-Er-gOi"/>
+                                    <constraint firstAttribute="bottom" secondItem="kvG-9f-LN1" secondAttribute="bottom" id="b5X-rr-bZ0"/>
+                                    <constraint firstItem="kvG-9f-LN1" firstAttribute="top" secondItem="E1N-qk-kSG" secondAttribute="top" id="c6w-Tj-ogy"/>
+                                    <constraint firstAttribute="bottom" secondItem="Df0-hF-Mp9" secondAttribute="bottom" id="nyY-pC-u3g"/>
+                                    <constraint firstItem="DKZ-3v-I2h" firstAttribute="top" secondItem="E1N-qk-kSG" secondAttribute="top" id="yOt-5n-A7V"/>
+                                    <constraint firstItem="kvG-9f-LN1" firstAttribute="width" secondItem="Df0-hF-Mp9" secondAttribute="width" id="yv3-bb-QQU"/>
+                                    <constraint firstItem="kvG-9f-LN1" firstAttribute="width" secondItem="DKZ-3v-I2h" secondAttribute="width" id="zgC-Zy-VAo"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="piD-8Y-P5J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="8yE-0O-TNh"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="piD-8Y-P5J" secondAttribute="bottom" constant="20" id="h1I-Qv-ujq"/>
-                            <constraint firstAttribute="trailing" secondItem="piD-8Y-P5J" secondAttribute="trailing" constant="16" id="ilr-qh-x0e"/>
-                            <constraint firstItem="piD-8Y-P5J" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="nLh-or-bhO"/>
+                            <constraint firstItem="piD-8Y-P5J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="1Yq-jP-1iv"/>
+                            <constraint firstAttribute="trailing" secondItem="piD-8Y-P5J" secondAttribute="trailing" constant="16" id="Bwx-27-imp"/>
+                            <constraint firstItem="E1N-qk-kSG" firstAttribute="top" secondItem="piD-8Y-P5J" secondAttribute="bottom" id="FhZ-63-GqP"/>
+                            <constraint firstItem="piD-8Y-P5J" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Wfj-Jk-raL"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="E1N-qk-kSG" secondAttribute="bottom" id="f86-rj-uFF"/>
+                            <constraint firstItem="E1N-qk-kSG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pUU-rV-qmS"/>
+                            <constraint firstAttribute="trailing" secondItem="E1N-qk-kSG" secondAttribute="trailing" id="xBu-aG-Va1"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+            <point key="canvasLocation" x="135" y="138.38028169014083"/>
         </scene>
     </scenes>
 </document>
