@@ -24,37 +24,46 @@
                             <textView userInteractionEnabled="NO" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" bouncesZoom="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFb-H8-azj" userLabel="MainTextView">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">SomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingText</mutableString>
+                                <string key="text">SomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingText</string>
                                 <color key="textColor" red="0.80377671632124348" green="0.80377671632124348" blue="0.80377671632124348" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <view userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pwd-Qh-PbU" userLabel="BottomView">
-                                <rect key="frame" x="0.0" y="619" width="375" height="48"/>
+                                <rect key="frame" x="0.0" y="634" width="375" height="33"/>
                                 <subviews>
                                     <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khQ-n0-Z0Q">
-                                        <rect key="frame" x="0.0" y="0.0" width="125" height="48"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="125" height="33"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="30"/>
                                         <state key="normal" title="Warfare">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                        </variation>
                                     </button>
                                     <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3P-3k-gPO">
-                                        <rect key="frame" x="125" y="0.0" width="125" height="48"/>
+                                        <rect key="frame" x="125" y="0.0" width="125" height="33"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="30"/>
                                         <state key="normal" title="Defence">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                        </variation>
                                     </button>
                                     <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yop-2v-c4C">
-                                        <rect key="frame" x="250" y="0.0" width="125" height="48"/>
+                                        <rect key="frame" x="250" y="0.0" width="125" height="33"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="30"/>
                                         <state key="normal" title="Intercessiory">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                        </variation>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.96263762949999998" green="0.96263762949999998" blue="0.96263762949999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="yop-2v-c4C" firstAttribute="top" secondItem="Pwd-Qh-PbU" secondAttribute="top" id="6Zk-eM-DeE"/>
                                     <constraint firstItem="f3P-3k-gPO" firstAttribute="width" secondItem="yop-2v-c4C" secondAttribute="width" id="B5G-T7-Ehs"/>

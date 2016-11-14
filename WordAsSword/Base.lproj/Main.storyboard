@@ -24,46 +24,55 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="piD-8Y-P5J" userLabel="MainTextView">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">SomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingText</mutableString>
+                                <string key="text">SomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingText</string>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E1N-qk-kSG" userLabel="BottomView">
-                                <rect key="frame" x="0.0" y="520" width="320" height="48"/>
+                            <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E1N-qk-kSG" userLabel="BottomView">
+                                <rect key="frame" x="0.0" y="535" width="320" height="33"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Df0-hF-Mp9">
-                                        <rect key="frame" x="0.0" y="0.0" width="106.5" height="48"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Df0-hF-Mp9">
+                                        <rect key="frame" x="0.0" y="0.0" width="106.5" height="33"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="30"/>
                                         <state key="normal" title="Warfare">
-                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                        </variation>
                                         <connections>
                                             <action selector="Warfare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rub-7R-LMI"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvG-9f-LN1">
-                                        <rect key="frame" x="106.5" y="0.0" width="107" height="48"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvG-9f-LN1">
+                                        <rect key="frame" x="106.5" y="0.0" width="107" height="33"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="30"/>
                                         <state key="normal" title="Defence">
-                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                        </variation>
                                         <connections>
                                             <action selector="Defence:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kk6-MN-zQ4"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DKZ-3v-I2h">
-                                        <rect key="frame" x="213.5" y="0.0" width="106.5" height="48"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DKZ-3v-I2h">
+                                        <rect key="frame" x="213.5" y="0.0" width="106.5" height="33"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="30"/>
                                         <state key="normal" title="Intercessiory">
-                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                        </variation>
                                         <connections>
                                             <action selector="Intercessiory:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7uO-e2-xPz"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.96263762953367871" green="0.96263762953367871" blue="0.96263762953367871" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="Df0-hF-Mp9" firstAttribute="leading" secondItem="E1N-qk-kSG" secondAttribute="leading" id="5W1-zM-Tnp"/>
                                     <constraint firstAttribute="bottom" secondItem="DKZ-3v-I2h" secondAttribute="bottom" id="6Tg-Pt-Mzm"/>
