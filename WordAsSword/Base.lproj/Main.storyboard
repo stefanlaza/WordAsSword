@@ -130,6 +130,11 @@
                     <connections>
                         <outlet property="MainTextField" destination="piD-8Y-P5J" id="rEk-0w-rzJ"/>
                         <outlet property="TopLabel" destination="iUf-RG-ZAr" id="iq0-uP-Up7"/>
+                        <outlet property="bottomView" destination="E1N-qk-kSG" id="zNX-ya-Chv"/>
+                        <outlet property="mainTextField" destination="piD-8Y-P5J" id="iS4-XH-Zvn"/>
+                        <outlet property="topLabel" destination="iUf-RG-ZAr" id="p8n-U5-91l"/>
+                        <outlet property="topView" destination="b6H-Lf-vQA" id="Hdh-2P-3vi"/>
+                        <outletCollection property="buttons" destination="DKZ-3v-I2h" collectionClass="NSMutableArray" id="SCc-4e-0o9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

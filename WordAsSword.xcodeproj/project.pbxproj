@@ -299,6 +299,7 @@
 				E87FE3E21DDA1FF300085B37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,47 +8,48 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextViewDelegate {
     
+    @IBOutlet weak var topView: UIView!
     
-    @IBOutlet weak var TopLabel: UILabel!
+    @IBOutlet weak var bottomView: UIView!
+    
+    @IBOutlet var buttons: [UIButton]!
+    
+    @IBOutlet weak var topLabel: UILabel!
 
-    
-    @IBOutlet weak var MainTextField: UITextView!
-    
-    func returnbackMainTextFieldColor() -> Bool {
-      //  if MainTextField.touchesBegan()
-        return true
-    }
-    
-    
+    @IBOutlet weak var mainTextField: UITextView!
+
     @IBAction func Warfare(_ sender: Any) {
-        print ("IBAction Warfare works")
-        TopLabel.text = "Warfare"
-        MainTextField.text = "Warfare"
-        MainTextField.textColor = UIColor.lightGray
+        topLabel.text = "Warfare"
+        mainTextField.text = "Warfare"
     }
     
     @IBAction func Defence(_ sender: Any) {
-        print ("IBAction Defence works")
-        TopLabel.text = "Defence"
-        MainTextField.text = "Defence"
-        MainTextField.textColor = UIColor.lightGray
+        topLabel.text = "Defence"
+        mainTextField.text = "Defence"
     }
  
     @IBAction func Intercessiory(_ sender: Any) {
-        print ("IBAction Intercessiory works")
-        TopLabel.text = "Intercessiory"
-        MainTextField.text = "Intercessiory"
-        MainTextField.textColor = UIColor.lightGray
+        topLabel.text = "Intercessiory"
+        mainTextField.text = "Intercessiory"
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-    
+        mainTextField.delegate = self
         
         
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+    
+    override var preferredStatusBarUpdateAnimation: UIStatusBarAnimation {
+        return .none
     }
 
     override func didReceiveMemoryWarning() {
@@ -57,5 +58,32 @@ class ViewController: UIViewController {
     }
 
 
+}
+
+
+extension ViewController {
+    
+    func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
+        self.topView.isHidden = true
+        self.bottomView.isHidden = true
+        self.mainTextField.font = self.mainTextField.font?.withSize(32)
+//        self.mainTextField.textColor = UIColor.red
+//        UIView.animate(withDuration: 0, animations: {
+//        self.mainTextField.font = self.mainTextField.font?.withSize(32)
+//        self.mainTextField.textColor = UIColor.red
+//         }, completion: nil)
+        
+    }
+    func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+        self.topView.isHidden = false
+        self.bottomView.isHidden = false
+        self.mainTextField.font = self.mainTextField.font?.withSize(30)
+//        self.mainTextField.textColor = UIColor.black
+//        UIView.animate(withDuration: 0, animations: {
+//        self.mainTextField.font = self.mainTextField.font?.withSize(30)
+//        self.mainTextField.textColor = UIColor.black
+//             }, completion: nil)
+    }
+    
 }
 
