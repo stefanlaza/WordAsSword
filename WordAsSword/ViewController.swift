@@ -19,24 +19,28 @@ class ViewController: UIViewController, UITextViewDelegate {
     @IBOutlet weak var topLabel: UILabel!
 
     @IBOutlet weak var mainTextField: UITextView!
-
+    
     @IBAction func Warfare(_ sender: Any) {
         topLabel.text = "Warfare"
-        mainTextField.text = "Warfare"
+       // mainTextField.text = "Warfare"
+        textFieldAlphaChange()
     }
     
     @IBAction func Defence(_ sender: Any) {
         topLabel.text = "Defence"
         mainTextField.text = "Defence"
+        textFieldAlphaChange()
     }
  
     @IBAction func Intercessiory(_ sender: Any) {
         topLabel.text = "Intercessiory"
         mainTextField.text = "Intercessiory"
+        textFieldAlphaChange()
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
         mainTextField.delegate = self
         
@@ -60,30 +64,26 @@ class ViewController: UIViewController, UITextViewDelegate {
 
 }
 
-
-extension ViewController {
+typealias SomeAnimationsandTouchEvents = ViewController
+extension SomeAnimationsandTouchEvents {
     
     func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
         self.topView.isHidden = true
         self.bottomView.isHidden = true
         self.mainTextField.font = self.mainTextField.font?.withSize(32)
-//        self.mainTextField.textColor = UIColor.red
-//        UIView.animate(withDuration: 0, animations: {
-//        self.mainTextField.font = self.mainTextField.font?.withSize(32)
-//        self.mainTextField.textColor = UIColor.red
-//         }, completion: nil)
-        
     }
     func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool) {
         self.topView.isHidden = false
         self.bottomView.isHidden = false
         self.mainTextField.font = self.mainTextField.font?.withSize(30)
-//        self.mainTextField.textColor = UIColor.black
-//        UIView.animate(withDuration: 0, animations: {
-//        self.mainTextField.font = self.mainTextField.font?.withSize(30)
-//        self.mainTextField.textColor = UIColor.black
-//             }, completion: nil)
-    }
-    
 }
+    func textFieldAlphaChange() {
+        UIView.animate(withDuration: 0.4, animations: {
+            self.mainTextField.alpha = 0
+        }, completion: nil)
+        UIView.animate(withDuration: 0.4, animations: {
+            self.mainTextField.alpha = 1
+        }, completion: nil)
+    }
 
+}

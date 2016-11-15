@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="piD-8Y-P5J" userLabel="MainTextView">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="piD-8Y-P5J" userLabel="MainTextView">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">SomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingTextSomeBeginingText</string>
@@ -90,10 +90,10 @@
                                 </constraints>
                             </view>
                             <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b6H-Lf-vQA" userLabel="TopView">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="20"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="0.0"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SomeBeginingText" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iUf-RG-ZAr">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="20"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="0.0"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -116,9 +116,10 @@
                             <constraint firstItem="piD-8Y-P5J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1Yq-jP-1iv"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="E1N-qk-kSG" secondAttribute="bottom" id="2hR-P2-906"/>
                             <constraint firstAttribute="trailing" secondItem="piD-8Y-P5J" secondAttribute="trailing" id="Bwx-27-imp"/>
-                            <constraint firstItem="piD-8Y-P5J" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="MXi-Ps-cwu"/>
+                            <constraint firstItem="piD-8Y-P5J" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" identifier="topToSuperView" id="MXi-Ps-cwu"/>
                             <constraint firstItem="b6H-Lf-vQA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="dLx-lI-2QY"/>
                             <constraint firstItem="b6H-Lf-vQA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="euo-bg-hYS"/>
+                            <constraint firstItem="piD-8Y-P5J" firstAttribute="top" secondItem="b6H-Lf-vQA" secondAttribute="bottom" identifier="toptoTopView" id="kw3-qw-XBj"/>
                             <constraint firstItem="E1N-qk-kSG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pUU-rV-qmS"/>
                             <constraint firstAttribute="trailing" secondItem="E1N-qk-kSG" secondAttribute="trailing" id="xBu-aG-Va1"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="piD-8Y-P5J" secondAttribute="bottom" id="xhY-QP-yOh"/>
