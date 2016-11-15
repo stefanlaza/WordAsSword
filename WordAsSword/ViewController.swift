@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     
+    @IBOutlet weak var TopLabel: UILabel!
 
     
     @IBOutlet weak var MainTextField: UITextView!
@@ -23,16 +24,22 @@ class ViewController: UIViewController {
     
     @IBAction func Warfare(_ sender: Any) {
         print ("IBAction Warfare works")
+        TopLabel.text = "Warfare"
+        MainTextField.text = "Warfare"
         MainTextField.textColor = UIColor.lightGray
     }
     
     @IBAction func Defence(_ sender: Any) {
         print ("IBAction Defence works")
+        TopLabel.text = "Defence"
+        MainTextField.text = "Defence"
         MainTextField.textColor = UIColor.lightGray
     }
  
     @IBAction func Intercessiory(_ sender: Any) {
         print ("IBAction Intercessiory works")
+        TopLabel.text = "Intercessiory"
+        MainTextField.text = "Intercessiory"
         MainTextField.textColor = UIColor.lightGray
     }
     override func viewDidLoad() {
