@@ -30,70 +30,11 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E1N-qk-kSG" userLabel="BottomView">
-                                <rect key="frame" x="0.0" y="535" width="320" height="33"/>
+                            <view alpha="0.80000000000000004" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="b6H-Lf-vQA" userLabel="TopView">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="20.5"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Df0-hF-Mp9">
-                                        <rect key="frame" x="0.0" y="0.0" width="106.5" height="33"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="30"/>
-                                        <state key="normal" title="Warfare">
-                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <variation key="heightClass=regular-widthClass=compact">
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
-                                        </variation>
-                                        <connections>
-                                            <action selector="Warfare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rub-7R-LMI"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvG-9f-LN1">
-                                        <rect key="frame" x="106.5" y="0.0" width="107" height="33"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="30"/>
-                                        <state key="normal" title="Defence">
-                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <variation key="heightClass=regular-widthClass=compact">
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
-                                        </variation>
-                                        <connections>
-                                            <action selector="Defence:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kk6-MN-zQ4"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DKZ-3v-I2h">
-                                        <rect key="frame" x="213.5" y="0.0" width="106.5" height="33"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="30"/>
-                                        <state key="normal" title="Intercessiory">
-                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        </state>
-                                        <variation key="heightClass=regular-widthClass=compact">
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
-                                        </variation>
-                                        <connections>
-                                            <action selector="Intercessiory:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7uO-e2-xPz"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstItem="Df0-hF-Mp9" firstAttribute="leading" secondItem="E1N-qk-kSG" secondAttribute="leading" id="5W1-zM-Tnp"/>
-                                    <constraint firstAttribute="bottom" secondItem="DKZ-3v-I2h" secondAttribute="bottom" id="6Tg-Pt-Mzm"/>
-                                    <constraint firstItem="kvG-9f-LN1" firstAttribute="leading" secondItem="Df0-hF-Mp9" secondAttribute="trailing" id="ItV-g7-LTc"/>
-                                    <constraint firstItem="Df0-hF-Mp9" firstAttribute="top" secondItem="E1N-qk-kSG" secondAttribute="top" id="PIr-gC-V2j"/>
-                                    <constraint firstItem="DKZ-3v-I2h" firstAttribute="leading" secondItem="kvG-9f-LN1" secondAttribute="trailing" id="UAd-J2-YP6"/>
-                                    <constraint firstAttribute="trailing" secondItem="DKZ-3v-I2h" secondAttribute="trailing" id="Wmb-Er-gOi"/>
-                                    <constraint firstAttribute="bottom" secondItem="kvG-9f-LN1" secondAttribute="bottom" id="b5X-rr-bZ0"/>
-                                    <constraint firstItem="kvG-9f-LN1" firstAttribute="top" secondItem="E1N-qk-kSG" secondAttribute="top" id="c6w-Tj-ogy"/>
-                                    <constraint firstAttribute="bottom" secondItem="Df0-hF-Mp9" secondAttribute="bottom" id="nyY-pC-u3g"/>
-                                    <constraint firstItem="DKZ-3v-I2h" firstAttribute="top" secondItem="E1N-qk-kSG" secondAttribute="top" id="yOt-5n-A7V"/>
-                                    <constraint firstItem="kvG-9f-LN1" firstAttribute="width" secondItem="Df0-hF-Mp9" secondAttribute="width" id="yv3-bb-QQU"/>
-                                    <constraint firstItem="kvG-9f-LN1" firstAttribute="width" secondItem="DKZ-3v-I2h" secondAttribute="width" id="zgC-Zy-VAo"/>
-                                </constraints>
-                            </view>
-                            <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b6H-Lf-vQA" userLabel="TopView">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="0.0"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SomeBeginingText" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iUf-RG-ZAr">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="0.0"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="SomeBeginingText" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iUf-RG-ZAr">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="20.5"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -109,6 +50,67 @@
                                     <constraint firstItem="iUf-RG-ZAr" firstAttribute="centerX" secondItem="b6H-Lf-vQA" secondAttribute="centerX" id="lQf-RF-xAX"/>
                                 </constraints>
                             </view>
+                            <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E1N-qk-kSG" userLabel="BottomView">
+                                <rect key="frame" x="0.0" y="535" width="320" height="33"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Df0-hF-Mp9">
+                                        <rect key="frame" x="8.5" y="0.0" width="101.5" height="33"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="30"/>
+                                        <state key="normal" title="Warfare">
+                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="Warfare:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rub-7R-LMI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvG-9f-LN1">
+                                        <rect key="frame" x="110" y="0.0" width="101" height="33"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="30"/>
+                                        <state key="normal" title="Intercessiory">
+                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="Defence:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kk6-MN-zQ4"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DKZ-3v-I2h">
+                                        <rect key="frame" x="211" y="0.0" width="101.5" height="33"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="30"/>
+                                        <state key="normal" title="Defence">
+                                            <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <variation key="heightClass=regular-widthClass=compact">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="Intercessiory:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7uO-e2-xPz"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="kvG-9f-LN1" firstAttribute="centerX" secondItem="E1N-qk-kSG" secondAttribute="centerX" id="1ij-4u-Sh0"/>
+                                    <constraint firstItem="Df0-hF-Mp9" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="E1N-qk-kSG" secondAttribute="leading" id="5W1-zM-Tnp"/>
+                                    <constraint firstAttribute="bottom" secondItem="DKZ-3v-I2h" secondAttribute="bottom" id="6Tg-Pt-Mzm"/>
+                                    <constraint firstItem="kvG-9f-LN1" firstAttribute="leading" secondItem="Df0-hF-Mp9" secondAttribute="trailing" id="ItV-g7-LTc"/>
+                                    <constraint firstItem="Df0-hF-Mp9" firstAttribute="top" secondItem="E1N-qk-kSG" secondAttribute="top" id="PIr-gC-V2j"/>
+                                    <constraint firstItem="DKZ-3v-I2h" firstAttribute="leading" secondItem="kvG-9f-LN1" secondAttribute="trailing" id="UAd-J2-YP6"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="DKZ-3v-I2h" secondAttribute="trailing" id="Wmb-Er-gOi"/>
+                                    <constraint firstAttribute="bottom" secondItem="kvG-9f-LN1" secondAttribute="bottom" id="b5X-rr-bZ0"/>
+                                    <constraint firstItem="kvG-9f-LN1" firstAttribute="top" secondItem="E1N-qk-kSG" secondAttribute="top" id="c6w-Tj-ogy"/>
+                                    <constraint firstItem="kvG-9f-LN1" firstAttribute="centerY" secondItem="E1N-qk-kSG" secondAttribute="centerY" id="mCq-FF-EUV"/>
+                                    <constraint firstAttribute="bottom" secondItem="Df0-hF-Mp9" secondAttribute="bottom" id="nyY-pC-u3g"/>
+                                    <constraint firstItem="DKZ-3v-I2h" firstAttribute="top" secondItem="E1N-qk-kSG" secondAttribute="top" id="yOt-5n-A7V"/>
+                                    <constraint firstItem="kvG-9f-LN1" firstAttribute="width" secondItem="Df0-hF-Mp9" secondAttribute="width" id="yv3-bb-QQU"/>
+                                    <constraint firstItem="kvG-9f-LN1" firstAttribute="width" secondItem="DKZ-3v-I2h" secondAttribute="width" id="zgC-Zy-VAo"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -119,7 +121,6 @@
                             <constraint firstItem="piD-8Y-P5J" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" identifier="topToSuperView" id="MXi-Ps-cwu"/>
                             <constraint firstItem="b6H-Lf-vQA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="dLx-lI-2QY"/>
                             <constraint firstItem="b6H-Lf-vQA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="euo-bg-hYS"/>
-                            <constraint firstItem="piD-8Y-P5J" firstAttribute="top" secondItem="b6H-Lf-vQA" secondAttribute="bottom" identifier="toptoTopView" id="kw3-qw-XBj"/>
                             <constraint firstItem="E1N-qk-kSG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pUU-rV-qmS"/>
                             <constraint firstAttribute="trailing" secondItem="E1N-qk-kSG" secondAttribute="trailing" id="xBu-aG-Va1"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="piD-8Y-P5J" secondAttribute="bottom" id="xhY-QP-yOh"/>

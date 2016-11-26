@@ -22,31 +22,35 @@ class ViewController: UIViewController, UITextViewDelegate {
     
     @IBAction func Warfare(_ sender: Any) {
         topLabel.text = "Warfare"
-        mainTextField.text = "Warfare"
+        mainTextField.text = "SomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareTextSomeWarfareText"
         textFieldAlphaChange()
     }
     
     @IBAction func Defence(_ sender: Any) {
         topLabel.text = "Defence"
-        mainTextField.text = "Defence"
+        mainTextField.text = "SomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceTextSomeDefenceText"
         textFieldAlphaChange()
     }
  
     @IBAction func Intercessiory(_ sender: Any) {
         topLabel.text = "Intercessiory"
-        mainTextField.text = "Intercessiory"
+        mainTextField.text = "SomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryTextSomeIntercessioryText"
         textFieldAlphaChange()
     }
     
+    var doubleTap: UITapGestureRecognizer!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
+
+        doubleTap = UITapGestureRecognizer(target: self,
+                                            action: #selector(ViewController.handleDoubleTap))
+        doubleTap.numberOfTapsRequired = 2
+        mainTextField.addGestureRecognizer(doubleTap)
         mainTextField.delegate = self
-        
-        
-        // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    
     
     override var prefersStatusBarHidden: Bool {
         return true
@@ -67,6 +71,12 @@ class ViewController: UIViewController, UITextViewDelegate {
 typealias SomeAnimationsandTouchEvents = ViewController
 extension SomeAnimationsandTouchEvents {
     
+    func handleDoubleTap(_ gestureRecognizer: UIGestureRecognizer) {
+        mainTextField.text = nil
+        topLabel.text = nil
+    }
+    
+
     func scrollViewWillBeginDragging(_ scrollView: UIScrollView) {
         self.topView.isHidden = true
         self.bottomView.isHidden = true
