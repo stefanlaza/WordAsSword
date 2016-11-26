@@ -22,7 +22,7 @@ class ViewController: UIViewController, UITextViewDelegate {
     
     @IBAction func Warfare(_ sender: Any) {
         topLabel.text = "Warfare"
-       // mainTextField.text = "Warfare"
+        mainTextField.text = "Warfare"
         textFieldAlphaChange()
     }
     
