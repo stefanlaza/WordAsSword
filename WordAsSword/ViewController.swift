@@ -71,6 +71,8 @@ class ViewController: UIViewController, UITextViewDelegate {
 typealias SomeAnimationsandTouchEvents = ViewController
 extension SomeAnimationsandTouchEvents {
     
+
+    
     func handleDoubleTap(_ gestureRecognizer: UIGestureRecognizer) {
         mainTextField.text = nil
         topLabel.text = nil
